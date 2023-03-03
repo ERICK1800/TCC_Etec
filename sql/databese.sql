@@ -1,0 +1,24 @@
+CREATE DATABASE gfimper
+DEFAULT CHARACTER SET utf8 
+DEFAULT COLLATE utf8_general_ci;
+USE gfimper
+
+CREATE TABLE usuarios (
+    id          INT(11) UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    Cpf 		VARCHAR(14) NOT NULL,
+    Nasc	    DATE NOT NULL, 
+    User        VARCHAR(20) NOT NULL,
+    Nome	    VARCHAR(255) NOT NULL,
+    Email       VARCHAR(191) NOT NULL,
+    Senha	    VARCHAR(20) NOT NULL,
+    Cargo       VARCHAR(5) NOT NULL
+);
+/*
+CREATE TABLE fotos (
+    IdFoto      INT(11) UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    LclFoto     VARCHAR(191) NOT NULL,
+    DtFoto      DATETIME NOT NULL,
+    NmFoto      VARCHAR(191) NOT NULL,
+    Fotos       MEDIUMBLOB NOT NULL
+);
+*/

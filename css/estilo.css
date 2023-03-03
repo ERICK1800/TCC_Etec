@@ -1,0 +1,170 @@
+@charset"utf-8";
+
+/* GERAL */
+
+html{
+	font-family: Verdana;
+}
+
+body{
+	color: #707070;
+	background-color: #FFFFFF;
+	font-size: 13pt;
+}
+h1{
+	font-size: 20pt;
+	margin-left: 80px;
+}
+h1, h5{
+	color: #455A64;
+}
+h5{
+	text-align: right;
+}
+p{
+	width: 80%;
+	margin-left: 10%;
+}
+article{
+	margin-bottom: 10px;
+}
+h2 {
+	text-transform: uppercase;
+	margin: 10px 0;
+	padding: 0;
+
+}
+h4{
+	text-align: center;
+}
+
+/*
+table, td, th{
+	padding: 5px;
+	text-align: center;
+}
+table{
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 85%;
+}
+th{
+	font-size: 16pt;
+}
+td:hover{
+	background-color: #E0E0E0;
+}*/
+
+/* MENU */
+
+h1#menu{
+	color: #FFFFFF;
+	margin-top: 70px;
+}
+img#logo{
+	width: 150px;
+}
+
+/* BODY - CORPO */
+
+h1#titulo{
+	font-size: 28pt;
+	margin-left: 8%;
+}
+h1#bemvindo{
+	font-size: 28pt;
+	margin-left: 8%;
+	font-weight: bold;
+}
+h2#obra{
+	margin-left: 2%;
+	font-size: 25pt;
+}
+h5#data{
+	font-size: 14pt;
+}
+div#interface{
+	background-color: #FFFFFF;
+	margin: 0px auto 0px auto;
+	padding:10px;
+	margin-left: 6%;
+	margin-right: 6%;
+}
+div#icones{
+	margin-left: 10px;
+}
+img.displayed{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+a#botao{
+	color: #29b6f6;
+}
+.fundo-slide{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.borda-top{
+	border-top-width: 7px;
+  	border-top-style: solid;
+  	border-top-color: #29b6f6;
+}
+.borda-right{
+	border-right-width: 7px;
+  	border-right-style: solid;
+  	border-right-color: #29b6f6;
+}
+.borda-left{
+	border-left-width: 7px;
+  	border-left-style: solid;
+  	border-left-color: #29b6f6;
+}
+div#login-page{
+	width: 500px;
+	margin-top: 50px;
+}
+.bold{
+	font-weight: bold;
+}
+
+/*div#sombratopo{
+	box-shadow: 0px -10px 10px #606060;s
+}*/
+
+/* TABELA */
+
+/*div#table{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+h6#inftabela{
+	color: rgba(112,112,112,0.5);
+	text-align: right;
+	margin-top: 20px;
+}
+th#titulo:hover{
+	background-color: #D0D0D0;
+}
+img#tabela{
+    border-radius: 50%;
+}
+.estudante{
+	width: 140px;
+}*/
+
+/* RODAPÉ */
+
+footer{
+	margin: -10px;
+	margin-top: 50px;
+	clear: both;
+	border-top: 2px solid #000000;
+	margin-left: -10%;
+	margin-right: -10%;
+}
+
+ p#rodape{
+ 	font-size: 10pt;
+ }
